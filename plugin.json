@@ -1,0 +1,12 @@
+{
+  "ID": "24rgry5yhtj7jmuk7m7v555ev4r34",
+  "ActionKeyword": "tw",
+  "Name": "tailwindcss",
+  "Description": "Search tailwindcss Docs",
+  "Author": "Areeb ur Rub",
+  "Version": "1.0.0",
+  "Language": "executable",
+  "Website": "https://github.com/areeburrub/tailwindcss",
+  "ExecuteFileName": "run.bat",
+  "IcoPath": "app.png"
+}
