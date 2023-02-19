@@ -6,7 +6,7 @@
   "Author": "Areeb ur Rub",
   "Version": "1.0.0",
   "Language": "executable",
-  "Website": "https://github.com/areeburrub/tailwindcss",
+  "Website": "https://github.com/areeburrub/tailwindcss-flow-launcher-plugin",
   "ExecuteFileName": "run.bat",
   "IcoPath": "app.png"
 }
