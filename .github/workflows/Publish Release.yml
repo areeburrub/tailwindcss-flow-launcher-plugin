@@ -35,11 +35,11 @@ jobs:
       - name: Install prod
         run: npm i --omit=dev
       - name: Pack
-        run: zip -r Flow.Launcher.Plugin.TailwindDocs.zip . -x '*.git*'
+        run: zip -r tailwindcss-plugin-flow-launcher.zip . -x '*.git*'
       - name: Publish
         uses: softprops/action-gh-release@v1
         with:
-          files: 'Flow.Launcher.Plugin.TailwindDocs.zip'
+          files: 'tailwindcss-plugin-flow-launcher.zip'
           tag_name: 'v${{steps.version.outputs.prop}}'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
